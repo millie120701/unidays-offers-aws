@@ -1,0 +1,99 @@
+{
+    "Offers":[
+    {
+        "PutRequest": {
+            "Item": {
+                "OfferID": {"N": "1"},
+                "Company": {"S": "HP"},
+                "logo": {"S": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/2048px-HP_logo_2012.svg.png" },
+                "Discount": {"S": "Up to 40% Off"},
+                "Expiry": {"S": "2024-07-18"},
+                "Title": {"S": "Get up to 40% off at the HP Student Store"},
+                "Description": {"S": "Don't let old tech slow you down. Upgrade now with big discounts, exclusively for students."},
+                "Type": {"S": "Discount"},
+                "Category": {"S": "Technology"},
+                "Conditions": {"S": "Offer cannot be used in conjunction with any other offer."},
+                "IsActive": {"BOOL": true},
+                "Tags": {"SS": ["Accessories", "Desktops", "Laptops & Tablets"]},
+                "Location": {"S": "Online"}
+            }
+        }
+    },
+    {
+        "PutRequest": {
+            "Item": {
+                "OfferID": {"N": "2"},
+                "Company": {"S": "WHSmith"},
+                "logo": {"S": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRwf-8JCe2A8PQ8Ab2xGwHj22JiC0JDVQbYwa7vGI86Xeph7dJok4n6PogurE7XSI8lMc&usqp=CAU" },
+                "Discount": {"S": "10% Off Online"},
+                "Expiry": {"S": "2024-08-15"},
+                "Title": {"S": "10% Off Books"},
+                "Description": {"S": "Great reads at WHSmiths for all the bookworms out there!"},
+                "Type": {"S": "Discount"},
+                "Category": {"S": "Travel & Lifestyle"},
+                "Conditions": {"S": "To qualify for this offer, add eligible products to your basket and enter the unique student promotional code from UNiDAYS. 10% discount will show in the basket on qualifying products only."},
+                "IsActive": {"BOOL": true},
+                "Tags": {"SS": ["Books & Stationery"]},
+                "Location": {"S": "Online"}
+            }
+        }
+    },
+    {
+        "PutRequest": {
+            "Item": {
+                "OfferID": {"N": "3"},
+                "Company": {"S": "The Fragrance Shop"},
+                "logo": {"S": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx-cvqbpHvXKobxlafMGS5G9jkXQKY8on86Q&s"},
+                "Discount": {"S": "Extra 15% Off"},
+                "Expiry": {"S": "2024-09-30"},
+                "Title": {"S": "15% off Fragrance & Beauty with UniDays"},
+                "Description": {"S": "Fragrances for him and her. Huge selection of brands. Get your UNiDAYs discount code today!"},
+                "Type": {"S": "Discount"},
+                "Category": {"S": "Beauty"},
+                "Conditions": {"S": "One transaction per customer, maximum 5 units per purchase, while stocks last. Cannot be used in conjunction with any other offer."},
+                "IsActive": {"BOOL": true},
+                "Tags": {"SS": ["Fragrance"]},
+                "Location": {"S": "Online"}
+            }
+        }
+    },
+    {
+        "PutRequest": {
+            "Item": {
+                "OfferID": {"N": "4"},
+                "Company": {"S": "Pizza Express"},
+                "logo": {"S": "https://www.bh2leisure.co.uk/wp-content/uploads/2016/12/PEX_logo_master_ROUNDEL_BLACK-1024x1024.png" },
+                "Discount": {"S": "25% Off Total Bill Sun - Friday"},
+                "Expiry": {"S": "2024-07-31"},
+                "Title": {"S": "Get 25% off food & drink Sunday - Friday"},
+                "Description": {"S": "Enjoy all-time favourites with 25% off your total bill now available Sunday - Friday"},
+                "Type": {"S": "Discount"},
+                "Category": {"S": "Food & Drink"},
+                "Conditions": {"S": "There are a few dos and don'ts. Check out the terms below. Not valid on Saturdays and on Bank holidays, Valentine's Day, Mother's Day, Easter Monday, Father's Day or on selected dates throughout December."},
+                "IsActive": {"BOOL": true},
+                "Tags": {"SS": ["Dine Out"]},
+                "Location": {"S": "In-store"}
+            }
+        }
+    },
+    {
+        "PutRequest": {
+            "Item": {
+                "OfferID": {"N": "5"},
+                "Company": {"S": "Garmin"},
+                "logo": {"S": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1R48UXr6q8-2VHiW5bp90086lZ5XFmcA9qw&s" },
+                "Discount": {"S": "Up to 40% Off Fitness & Smart Watches"},
+                "Expiry": {"S": "2024-12-31"},
+                "Title": {"S": "Keep an eye on what's inside with up to 40% Off Fitness & Smart Watches!"},
+                "Description": {"S": "More battery. More features. More options."},
+                "Type": {"S": "Discount"},
+                "Category": {"S": "Health & Fitness"},
+                "Conditions": {"S": "Selected items only."},
+                "IsActive": {"BOOL": true},
+                "Tags": {"SS": ["Fitness Accessories"]},
+                "Location": {"S": "Online"}
+            }
+        }
+    }
+]
+}
